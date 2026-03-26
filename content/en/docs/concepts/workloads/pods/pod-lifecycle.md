@@ -997,7 +997,7 @@ Pod termination flow, illustrated with an example:
    you must modify `terminationGracePeriodSeconds` to suit this.
    {{% /note %}}
 
-   1. The kubelet triggers the container runtime to send a TERM signal to process 1 inside each
+   2. The kubelet triggers the container runtime to send a TERM signal to process 1 inside each
       container.
 
       There is [special ordering](#termination-with-sidecars) if the Pod has any
